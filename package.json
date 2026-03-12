@@ -1,0 +1,30 @@
+{
+  "name": "customer-manager",
+  "version": "1.0.0",
+  "description": "A modern customer management application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "customer",
+    "management",
+    "crm",
+    "express",
+    "nodejs"
+  ],
+  "author": "jornjud",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.55.0"
+  }
+}
